@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Ramadan Kareem | Animated Website Design</title>
+	<link rel="stylesheet" type="text/css" href="exemplodesite8.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+	<section>
+		<img src="mosque.jpg" class="mosque">
+		<header> 
+			<a href="#" class="logo"> Ramadan </a>
+			<div class="toggle"></div>
+			<ul class="navigation">
+				<li><a href="#" style="--i:1;" class="active">Home</a></li>
+				<li><a href="#" style="--i:2;"> About</a></li>
+				<li><a href="#" style="--i:3;"> Calendar</a></li>
+				<li><a href="#" style="--i:4;"> Blog</a></li>
+				<li><a href="#" style="--i:5;"> Contact</a></li>
+			</ul>
+		</header>
+
+		<div class="content">
+			<div class="textbox">
+			<h2> Happy Ramadan Kareem</h2>
+			<p> Ramadan is a month of fasting for many Muslims in the United States. Fasting during Ramadan is one of the Five Pillars (fundamental religious duties) of Islam.</p>
+			<a href="#">Read More</a>
+			</div>
+		</div>
+
+		<ul class="sci">
+			<li><a href="#" style="--i:12;"><i class="fa fa-facebook-f fa-2x" style="color: white;"></i></a></li>
+			<li><a href="#" style="--i:13;"><i class="fa fa-twitter fa-2x" style="color: white;"></i></a></li>
+			<li><a href="#" style="--i:14;"><i class="fa fa-instagram fa-2x" style="color: white;"></i></a></li>
+		</ul>
+
+	</section>
+
+
+	<script>
+		const menuToggle = document.querySelector('.toggle');
+		menuToggle.onclick = function() {
+			menuToggle.classList.toggle('active'); }
+		const navigation = document.querySelector('.navigation');
+		menuToggle.onclick = function(){
+			navigation.classList.toggle('active');
+		} 
+	</script>
+
+</body>
+</html>
